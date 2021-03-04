@@ -1,0 +1,41 @@
+ .nav-logo{
+            width: 160px;
+            padding-left: 25px;
+        }
+.header{
+    display: flex;
+    height: 70px;
+    width: 100%;
+    justify-content: space-between;
+    background-color: white;
+    // margin-bottom: 25px;
+    // padding-bottom: 25px;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    .options{
+        width: 70%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        font-weight: 600;
+        
+        .option{
+            padding: 10px 15px;
+            transition: font-weight 1s;
+            cursor: pointer;
+        }
+        .option:hover{
+            font-weight: 800;
+        }
+        .fa-phone{
+            padding-right:10px;
+            font-size: 16px;
+        }
+        h3{
+            font-weight: 400;
+            font-size: 16px;
+        }
+    }
+}

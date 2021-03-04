@@ -1,0 +1,30 @@
+.contact-content{
+    display: grid;
+    grid-template-columns: 0.8fr 2fr;
+    column-gap: 40px;
+    min-height: 100vh;
+    // color: rgba(255, 0, 0, 0.226);
+
+    .contact-info{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+
+        .row{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+
+            i{
+                font-size: 5em;
+                transition: color 1s linear;
+            }
+            i:hover{
+                color:rgb(31, 241, 24);
+            }
+        }
+    }
+    .Google-map-container{
+        text-align: center;
+    }
+}

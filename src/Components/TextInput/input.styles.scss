@@ -1,0 +1,31 @@
+.first-name{
+    display: flex;
+    flex-direction: column;
+}
+.input-elements{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+input[type="text"]{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 2px solid black;
+}
+
+input[type="email"]{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 2px solid black;
+}
+input[type="tel"]{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 2px solid black;
+}
+textarea:focus, input:focus{
+    outline: none;
+}
